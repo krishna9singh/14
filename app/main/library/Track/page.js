@@ -5,7 +5,7 @@ import area from "../../../assets/Images/Livearea.png";
 import fromm from "../../../assets/Images/from.png";
 import { useSearchParams } from "next/navigation";
 import Tick from "../../../assets/Images/tick.png";
-import Illustration from "../../../assets/Images/illustration.png";
+import Illustration from "../../../assets/Images/Illustration.png";
 
 function page() {
   const search = useSearchParams();

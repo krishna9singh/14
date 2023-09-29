@@ -7,7 +7,7 @@ import tick from "../../../assets/Images/bluetick.png";
 import moment from "moment/moment";
 import Empty from "../../../assets/Images/community.png";
 import Link from "next/link";
-import clap from "../../../assets/Images/Clap.png";
+import clap from "../../../assets/Images/clap.png";
 import ClickClap from "../../../assets/Images/Clickclap.png";
 import { VscSend } from "react-icons/vsc";
 
