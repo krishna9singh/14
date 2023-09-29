@@ -17,7 +17,7 @@ import { useSearchParams } from "next/navigation";
 function page() {
   const search = useSearchParams();
   const id = search.get("id");
-  const comId = JSON.parse(search.get("comId"));
+  const comId = search.get("comId");
   const [data, setData] = useState([]);
   const [on, setOn] = useState(false);
   const [dp, setDp] = useState();

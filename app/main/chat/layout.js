@@ -77,10 +77,10 @@ export default function ChatLayout({ children }) {
                   href={{
                     pathname: "../../main/chat",
                     query: {
-                      convId: JSON.stringify(d?.msg?.conversationId),
+                      convId: d?.msg?.conversationId,
                       pro: d?.dp,
                       name:d?.rec?.fullname,
-                      status: JSON.stringify(d?.msg?.status),
+                      status: d?.msg?.status,
                     }, // Corrected the object property assignments
                   }}
                   onClick={() => {

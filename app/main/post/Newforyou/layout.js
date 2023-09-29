@@ -256,7 +256,7 @@ export default function NewforyouLayout({ children }) {
                 href={{
                   pathname: "../../../phone/NewInner",
                   query: {
-                    comId: JSON.stringify(d?.posts?.community?._id),
+                    comId: currentcomId,
                     id: id,
                   },
                 }}

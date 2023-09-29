@@ -105,7 +105,6 @@ function page() {
             for (let i = 0; i < topic.length; i++) {
               names.push(data.community.topics[i].title);
             }
-
             setComverified(data?.community?.isverified);
             setDp(data.dp);
             setNames(names);
@@ -197,7 +196,7 @@ function page() {
   }, [comId, id]);
   console.log(activetopic);
 
-  // const fetchMessages = useCallback(() => {
+ 
   //   if (data) {
   //     setCurrent(data[0]._id);
   //     setTitle(data[0].title);
