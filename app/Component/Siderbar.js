@@ -17,22 +17,22 @@ function Siderbar() {
   const [sear, setSear] = useState(false);
   const [color, setColor] = useState();
 
-  useEffect(() => {
-    setColor(
-     sessionStorage.getItem("selectedColor")
-    
-    )
-    // Store the selected color in sessionStorage
-    sessionStorage.setItem("selectedColor", color.toString());
-  }, [color]);
+  // useEffect(() => {
+  //   setColor(
+  //    sessionStorage.getItem("selectedColor")
 
-  const handleColor = (i) => {
-    setColor(i);
-  };
-  const fetch = async () => {
-    const value = await sessionStorage.getItem("pic");
-    setPix(value);
-  };
+  //   )
+  //   // Store the selected color in sessionStorage
+  //   sessionStorage.setItem("selectedColor", color.toString());
+  // }, [color]);
+
+  // const handleColor = (i) => {
+  //   setColor(i);
+  // };
+  // const fetch = async () => {
+  //   const value = await sessionStorage.getItem("pic");
+  //   setPix(value);
+  // };
   const Map = [
     {
       name: "Home",
@@ -58,9 +58,9 @@ function Siderbar() {
     },
   ];
 
-  useEffect(() => {
-    fetch();
-  }, []);
+  // useEffect(() => {
+  //   fetch();
+  // }, []);
   return (
     <div className="h-screen w-[70px] bg-[#f9f9f9] dark:bg-[#171717] flex flex-col justify-center items-center">
       {/* Image */}

@@ -4,7 +4,7 @@ export default function PostLayout({ children }) {
   return (
     <div className=" bg-red-600 w-[100%] h-[100%] ">
       <div className="pn:max-sm:fixed pn:max-md:top-14 pn:max-md:z-10 pn:max-md:w-[100%] bg-white">
-        <Switcher />
+        {/* <Switcher /> */}
       </div>
 
       {/* Header */}

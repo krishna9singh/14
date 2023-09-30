@@ -21,7 +21,6 @@ function page() {
   const [data, setData] = useState([]);
   const [on, setOn] = useState(false);
   const [dp, setDp] = useState();
-
   const [load, setLoad] = useState(false);
   const [names, setNames] = useState("");
   const [comverified, setComverified] = useState(false);
@@ -65,8 +64,7 @@ function page() {
     // Function to scroll the content down
     const scrollDownContent = () => {
       if (contentRef.current) {
-        contentRef.current.scrollTop += 2
-        ; // Adjust the scroll speed as needed
+        contentRef.current.scrollTop += 2; // Adjust the scroll speed as needed
       }
     };
 

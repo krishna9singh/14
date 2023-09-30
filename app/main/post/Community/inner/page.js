@@ -32,7 +32,6 @@ function page() {
   const [toast, setToast] = useState("");
   const [timeout, setTimeout] = useState("");
   const [mounted, setMounted] = useState(false);
-  const [switchpost, setSwitchpost] = useState(1);
   const [current, setCurrent] = useState();
   const [activetopic, setActiveTopic] = useState(0);
   const [title, setTitle] = useState();
@@ -196,7 +195,6 @@ function page() {
   }, [comId, id]);
   console.log(activetopic);
 
- 
   //   if (data) {
   //     setCurrent(data[0]._id);
   //     setTitle(data[0].title);
